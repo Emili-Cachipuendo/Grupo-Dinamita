@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
 
-//funcion
-
+ 
 int main(){
+double n1, n2, respuesta;
 
+cout<<"ingrese el primer numero:"<<endl;
+cin>>n1
 
-
+cout<<"ingrese el segundo numero:"<<endl;
+cin>>n2
 
 return 0;
 
