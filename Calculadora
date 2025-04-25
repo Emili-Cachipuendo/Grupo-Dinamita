@@ -1,17 +1,21 @@
 #include <iostream>
 using namespace std;
 
- 
-int main(){
-double n1, n2, respuesta;
+int main() {
+    double num1, num2, resultado;
+    int opcion;
 
-cout<<"ingrese el primer numero:"<<endl;
-cin>>n1
+    cout << "Ingrese el primer número: ";
+    cin >> num1;
 
-cout<<"ingrese el segundo numero:"<<endl;
-cin>>n2
+    cout << "Ingrese el segundo número: ";
+    cin >> num2;
 
-return 0;
-
-}
+    cout << "Seleccione la operación:\n";
+    cout << "1 - Suma\n";
+    cout << "2 - Resta\n";
+    cout << "3 - Multiplicación\n";
+    cout << "4 - División\n";
+    cout << "Opción: ";
+    cin >> opcion;
 
